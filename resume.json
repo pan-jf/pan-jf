@@ -23,7 +23,10 @@
     },
     "educationList": [
         {
-            "edu_time": ["2014.09.01", "2017.06.30"],
+            "edu_time": [
+                "2014.09.01",
+                "2017.06.30"
+            ],
             "school": "广东理工职业学院",
             "major": "软件技术",
             "dataIndex": 0
@@ -34,21 +37,30 @@
         {
             "company_name": "广州市智多鱼科技有限公司",
             "department_name": "",
-            "work_time": ["2022.03", null],
+            "work_time": [
+                "2022.03",
+                null
+            ],
             "work_desc": "1.棋牌游戏大厅的开发维护\n2.游戏报表数据统计",
             "dataIndex": 0
         },
         {
             "company_name": "广州市研趣科技有限公司",
             "department_name": "运维一组",
-            "work_time": ["2020.03", "2022.03"],
+            "work_time": [
+                "2020.03",
+                "2022.03"
+            ],
             "work_desc": "PHP开发工程师。\n1. 前期负责系统迭代\n2. 负责性能优化，比如使用rabbitmq，\ngo开发工程师\n1. 后期转型go，负责项目有数据中心",
             "dataIndex": 1
         },
         {
             "company_name": "广州市枫车电子商务有限公司",
             "department_name": "三剑客小组",
-            "work_time": ["2017.07", "2020.03"],
+            "work_time": [
+                "2017.07",
+                "2020.03"
+            ],
             "work_desc": "1、参与完成电商平台的技术架构设计；\n2、负责电商平台相关业务模块的分析、设计；\n3、独立完成电商平台相关功能模块编码；\n4、相关开发文档的整理与编写；",
             "dataIndex": 2
         }
@@ -56,9 +68,30 @@
     "skillList": [],
     "projectList": [
         {
+            "project_name": "数据中心",
+            "project_role": "Golang开发工程师",
+            "project_time": "2021.12 - 2022.02",
+            "project_desc": "采集用户行为（登录，浏览，下单等），用以实现漏斗分析，PV分析，用户画像。\n使用语言：Golang；\n使用框架：gin；\n使用中间件：mysql，面向列的DBMS clickhouse；",
+            "project_content": "1. 接收前端埋点记录到clickhouse；\n2. 使用Golang完成数据中心接口开发；"
+        },
+        {
+            "project_name": "运维性能优化（研趣）",
+            "project_role": "PHP开发工程师",
+            "project_time": "2020.05 - 2021.08",
+            "project_desc": "代码上发现新方法重构，架构上发现新技术优化",
+            "project_content": "1. 大数据导出优化（2020.05-2020.06） 2. 新版商品迁移\n （2020.05-2020.06）3. rabbitmq独立搭建（2020.07-2020.08）\n 4. 代码敏感隐私优化（2020.09）\n 5. 前后端分离 (2020.10-2020.12) \n 6. 代码分层规范及审核 (2021.01-2021.04) \n 7. 商家APP迁移 (2021.05-2021.08) \n"
+        },
+        {
+            "project_name": "自研产品开发迭代（研趣）",
+            "project_role": "PHP开发工程师",
+            "project_time": "2020.04 - 2021.12",
+            "project_desc": "公司自研产品有后台（运营，商家）、官网（M端，PC）、支付宝小程序（个人版，企业版），商家APP。\n使用语言：PHP\n使用中间件：mysql，Redis，Elasticsearch，mycat，rabbitmq\n使用框架：yii，easyswoole。\n\n 网页版入口是 https://www.rrzu.com/  \n\nM端版入口是 https://m.rrzu.com/",
+            "project_content": "1. 实现产品需求，完成开发迭代。\n2. 排查历史问题，修复系统bug。\n3. 系统性能调优，优化慢查询等。"
+        },
+        {
             "project_name": "枫车自研产品开发",
             "project_role": "PHP开发工程师",
-            "project_time": "2017 - 至今",
+            "project_time": "2017.07 - 2020.03",
             "project_desc": "公司自研产品有枫车收银系统，枫车运营后台，微养车找店小程序，枫铃铛铛APP，微养车小程序，枫车门店APP。\n使用语言：php\n使用框架：laravel\n使用中间件：mysql，Redis",
             "project_content": "1.分析及设计业务模块\n2.完成技术文档的编写\n3.完成相关功能模块的编码,并对接前端，Java，iOS，安卓"
         }
