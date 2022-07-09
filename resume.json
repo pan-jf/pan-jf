@@ -1,0 +1,74 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": true
+    },
+    "profile": {
+        "name": "潘晋锋",
+        "email": "12741969293@qq.com",
+        "mobile": "13420067257",
+        "github": "https://github.com/pan-jf",
+        "zhihu": "",
+        "workExpYear": "",
+        "workPlace": "广州",
+        "positionTitle": "Go开发工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": "2014.09.01，2017.06.30",
+            "school": "广东理工职业学院",
+            "major": "软件技术",
+            "dataIndex": 0
+        }
+    ],
+    "awardList": [],
+    "workExpList": [
+        {
+            "company_name": "广州市智多鱼科技有限公司",
+            "department_name": "",
+            "work_time": "2022.03,",
+            "work_desc": "1.棋牌游戏大厅的开发维护\n2.游戏报表数据统计",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "广州市研趣科技有限公司",
+            "department_name": "运维一组",
+            "work_time": "2020.04,2022.03",
+            "work_desc": "PHP开发工程师。\n1. 前期负责系统迭代\n2. 负责性能优化，比如使用rabbitmq，\ngo开发工程师\n1. 后期转型go，负责项目有数据中心",
+            "dataIndex": 1
+        },
+        {
+            "company_name": "广州市枫车电子商务有限公司",
+            "department_name": "三剑客小组",
+            "work_time": "2017.04,2020.03",
+            "work_desc": "1、参与完成电商平台的技术架构设计；\n2、负责电商平台相关业务模块的分析、设计；\n3、独立完成电商平台相关功能模块编码；\n4、相关开发文档的整理与编写；",
+            "dataIndex": 2
+        }
+    ],
+    "skillList": [],
+    "projectList": [
+        {
+            "project_name": "枫车自研产品开发",
+            "project_role": "PHP开发工程师",
+            "project_time": "2019 - 至今",
+            "project_desc": "公司自研产品有枫车收银系统，枫车运营后台，微养车找店小程序，枫铃铛铛APP，微养车小程序，枫车门店APP。\n使用语言：php\n使用框架：laravel\n使用中间件：mysql，Redis",
+            "project_content": "1.分析及设计业务模块\n2.完成技术文档的编写\n3.完成相关功能模块的编码,并对接前端，Java，iOS，安卓"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "1、熟练使用Golang，PHP编程语言；\n2、熟练使用框架Golang（gin，go mirco）、PHP框架（yii，easyswoole，thinkPHP，laraval）；\n3、熟练使用中间件mysql，redis，Elasticsearch，kibana，rabbitmq，docker；\n4、熟悉使用Linux操作系统；\n5、了解前端开发（Vue）；熟悉微信小程序开发；\n6、英语四级；\n7、工作细心，责任心强，具有独立开发项目经验，熟悉常见业务处理"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
