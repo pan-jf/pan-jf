@@ -23,7 +23,7 @@
     },
     "educationList": [
         {
-            "edu_time": "2014.09.01，2017.06.30",
+            "edu_time": ["2014.09.01", "2017.06.30"],
             "school": "广东理工职业学院",
             "major": "软件技术",
             "dataIndex": 0
@@ -34,21 +34,21 @@
         {
             "company_name": "广州市智多鱼科技有限公司",
             "department_name": "",
-            "work_time": "2022.03,",
+            "work_time": ["2022.03", null],
             "work_desc": "1.棋牌游戏大厅的开发维护\n2.游戏报表数据统计",
             "dataIndex": 0
         },
         {
             "company_name": "广州市研趣科技有限公司",
             "department_name": "运维一组",
-            "work_time": "2020.04,2022.03",
+            "work_time": ["2020.03", "2022.03"],
             "work_desc": "PHP开发工程师。\n1. 前期负责系统迭代\n2. 负责性能优化，比如使用rabbitmq，\ngo开发工程师\n1. 后期转型go，负责项目有数据中心",
             "dataIndex": 1
         },
         {
             "company_name": "广州市枫车电子商务有限公司",
             "department_name": "三剑客小组",
-            "work_time": "2017.04,2020.03",
+            "work_time": ["2017.07", "2020.03"],
             "work_desc": "1、参与完成电商平台的技术架构设计；\n2、负责电商平台相关业务模块的分析、设计；\n3、独立完成电商平台相关功能模块编码；\n4、相关开发文档的整理与编写；",
             "dataIndex": 2
         }
@@ -58,7 +58,7 @@
         {
             "project_name": "枫车自研产品开发",
             "project_role": "PHP开发工程师",
-            "project_time": "2019 - 至今",
+            "project_time": "2017 - 至今",
             "project_desc": "公司自研产品有枫车收银系统，枫车运营后台，微养车找店小程序，枫铃铛铛APP，微养车小程序，枫车门店APP。\n使用语言：php\n使用框架：laravel\n使用中间件：mysql，Redis",
             "project_content": "1.分析及设计业务模块\n2.完成技术文档的编写\n3.完成相关功能模块的编码,并对接前端，Java，iOS，安卓"
         }
